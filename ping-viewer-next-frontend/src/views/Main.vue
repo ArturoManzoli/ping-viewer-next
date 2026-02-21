@@ -1264,6 +1264,7 @@ const isReplayProgressDialogOpen = computed(() => isReplayLoading.value || isRep
   padding: 0;
   z-index: 999;
   border-radius: var(--border-radius);
+  user-select: none;
 }
 
 .speed-dial-container {
