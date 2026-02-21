@@ -1196,8 +1196,11 @@ const isReplayProgressDialogOpen = computed(() => isReplayLoading.value || isRep
 }
 
 * {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(var(--v-theme-on-surface), 0.2) transparent;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
 
 /* Glass effects */
