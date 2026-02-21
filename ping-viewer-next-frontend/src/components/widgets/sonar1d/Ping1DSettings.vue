@@ -1,5 +1,5 @@
 <template>
-  <v-card class="pa-0" style="width: 300px; max-width: 90vw">
+  <v-card class="pa-0" style="width: 300px; max-width: 90vw; user-select: none">
     <div class="windowHeader flex w-full justify-between items-center pl-4 pt-0">
       <v-card-title class="text-md text-center flex-grow-1">Ping1D Settings</v-card-title>
       <v-btn icon="mdi-close" variant="text" @click="handleClose" />
