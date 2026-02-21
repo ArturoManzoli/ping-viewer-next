@@ -1504,6 +1504,7 @@ const isReplayProgressDialogOpen = computed(() => isReplayLoading.value || isRep
   border-radius: var(--border-radius);
   max-height: calc(100vh - 2 * (var(--button-size) + var(--button-gap)));
   overflow: hidden;
+  user-select: none;
 }
 
 .menu-content {
